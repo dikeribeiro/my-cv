@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.information-column{
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.information-column hr {
+    border: none;
+    border-bottom: 2px solid green;
+    margin-top: 18px;
+}
+
+
+.information-column img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-bottom: 18px;
+    }
+
+.information-column h3{
+    text-align: left;
+    margin-top: 20px;
+
+}
+.information-column ul{
+    list-style-type: none;
+}
+
+.information-column li{
+    text-align: left;
+    margin: 10px 0px;   
+}
+
+.information-column a{
+    text-decoration: none;
+    color: #fff
+}
+
+.information-column i{
+    color: green;
+    margin-right: 10px;
+}
+
+.education-description {
+    margin-top: 25px;
+}
+
+.education-description p{
+    color: green;
+}
+
+.education-description h4 {
+    margin-top: 6px;
+}
+
+.education-description h5{
+    margin-top: 2px;
+}
+
+.language-description .percent{
+    height: 6px;
+    background-color: #008000;
+    margin-top: 4px;
+    width: 205px;
+}
+
+.language-description .percent div {
+    height: 6px;
+    background-color: #32cd32;
+}
+
+.language-description .percent.english div {
+    width: 70%;
+}
+
+.experiences-column {
+    background-color: #fff;
+    padding: 40px;
+    color: #000;
+    text-align: left;
+}
+
+.experiences-column section{
+    margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+    margin-bottom: 15px;
+    color: red;
+}
+
+.experiences-column h2 {
+    margin-bottom: 5px;
+}
+
+.experiences-column .experiences {
+    margin-bottom: 14px;
+}
+
+.experiences-column p {
+    margin-left: 20px;
+    font-size: 15px;
+}
+.experiences-column a {
+    text-decoration: underline;
+    max-width: max-content;
+    color: #000;
+}
+.experiences-column .last-date{
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+    .container {
+    display: flex;
+    }
+
+    .information-column img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .experiences-column .experience {
+        display: flex;
+    }
+
+    .experience-date {
+        width: 250px;
+    }
+
+    .experiences-column h2 {
+        margin-bottom: 20px;
+        color: red;
+    }
+
+    .experience {
+        margin-bottom: 20px;
+    }
