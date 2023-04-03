@@ -112,6 +112,7 @@
 .experiences-column p {
     margin-left: 20px;
     font-size: 15px;
+    display: flex;
 }
 .experiences-column a {
     text-decoration: underline;
